@@ -1,0 +1,6 @@
+config BR2_PACKAGE_ECHO
+	bool "echo - prints the argv array"
+	default y
+	help
+	  echo is a small demonstration program that prints
+	  its command line arguments.
